@@ -39,11 +39,11 @@
 
 		navbarCheck(navbar);
 
-		$(window).resize(function() {
-			var windowWidth = Math.max($(window).width(), window.innerWidth);
-			buildModuleHero();
-			hoverDropdown(windowWidth, mobileTest);
-		});
+		// $(window).resize(function() {
+		// 	var windowWidth = Math.max($(window).width(), window.innerWidth);
+		// 	buildModuleHero();
+		// 	hoverDropdown(windowWidth, mobileTest);
+		// });
 
 		$(window).scroll(function() {
 			navbarAnimation(navbar, moduleHero);
